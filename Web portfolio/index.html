@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>หน้าแรก (Home) | Modern Portfolio</title>
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER & MENU BAR (SHARED) ================= -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <span class="logo-badge">&lt;/&gt;</span>
+        <span class="logo-text">My<span>Portfolio</span></span>
+      </a>
+
+      <!-- Menu Bar Navigation -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="education.html" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+          <li><a href="portfolio.html" class="nav-link"><i class="fa-solid fa-briefcase"></i> Portfolio</a></li>
+          <li><a href="activity.html" class="nav-link"><i class="fa-solid fa-calendar-check"></i> Activity</a></li>
+          <li><a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="portfolio.html" class="btn-contact-nav">
+          <i class="fa-solid fa-briefcase"></i> ชมผลงาน
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= MAIN CONTENT (HOME) ================= -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-text">
+          <div class="hero-greeting">
+            <i class="fa-solid fa-hand-wave"></i> ยินดีต้อนรับสู่พอร์ตโฟลิโอของฉัน
+          </div>
+          <h1 class="hero-title">
+            HI, I'M APISAK <br>
+            <span class="highlight">Game Developer</span>
+          </h1>
+
+          <div class="hero-cta">
+            <a href="portfolio.html" class="btn btn-primary">
+              <i class="fa-solid fa-briefcase"></i> ชมผลงานทั้งหมด
+            </a>
+            <a href="contact.html" class="btn btn-outline">
+              <i class="fa-regular fa-comment-dots"></i> พูดคุยกับฉัน
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-wrapper">
+            <img src="pic/me3.jpg" alt="Profile" class="avatar-img">
+          </div>
+        </div>
+    </div>
+    </section>
+
+    </div>
+  </main>
+
+  <!-- Quick Highlights Grid -->
+  <section class="quick-highlights">
+    <div class="page-header" style="padding-top: 1rem; margin-bottom: 2rem;">
+      <span class="page-badge"><i class="fa-solid fa-compass"></i> สำรวจข้อมูล</span>
+      <h2 class="page-title">ไฮไลท์ในแต่ละหมวดหมู่</h2>
+      <p class="page-subtitle">ทำความรู้จักตัวตน ประสบการณ์ และผลงานที่น่าสนใจผ่านหน้าต่าง ๆ</p>
+    </div>
+
+    <div class="quick-features-grid">
+      <!-- Card 1: Education -->
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-user-graduate"></i></div>
+        <h3>ประวัติการศึกษา (Education)</h3>
+        <p>บันทึกเส้นทางการเรียนรู้ วุฒิการศึกษา ทักษะวิชาชีพ และประวัติการศึกษาในแต่ละระดับ</p>
+        <a href="education.html" class="card-link">ดูรายละเอียดการศึกษา <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <!-- Card 2: Portfolio -->
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-laptop-code"></i></div>
+        <h3>คลังผลงาน (Portfolio)</h3>
+        <p>รวมโปรเจกต์เด่นทั้ง Web Application, โมบายแอปพลิเคชัน และระบบงานจริงที่พัฒนา</p>
+        <a href="portfolio.html" class="card-link">สำรวจผลงานทั้งหมด <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <!-- Card 3: Activity -->
+      <div class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-medal"></i></div>
+        <h3>กิจกรรมและผลงาน (Activity)</h3>
+        <p>กิจกรรมเพื่อสังคม ค่ายวิชาการ การแข่งขัน Hackathon และการเข้าร่วมเวิร์กชอปต่าง ๆ</p>
+        <a href="activity.html" class="card-link">ชมกิจกรรมและภาพบรรยากาศ <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  </div>
+  </main>
+
+  <!-- ================= FOOTER (SHARED) ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Column 1: Brand & Bio -->
+        <div class="footer-col-brand">
+          <a href="index.html" class="brand-logo">
+            <span class="logo-badge">&lt;/&gt;</span>
+            <span class="logo-text">My<span>Portfolio</span></span>
+          </a>
+          <p class="footer-desc">
+            เว็บไซต์รวบรวมประวัติ ผลงาน ทักษะ และกิจกรรม ออกแบบด้วยมาตรฐานความทันสมัย สวยงาม และรองรับทุกขนาดหน้าจอ
+          </p>
+          <div class="footer-badge-status">
+            <span class="status-dot"></span> พื้นที่จัดแสดงผลงานและโปรเจกต์สร้างสรรค์ (Creative Portfolio Showcase)
+          </div>
+        </div>
+
+        <!-- Column 2: Navigation Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">เมนูนำทาง</h4>
+          <ul class="footer-links-list">
+            <li class="footer-link-item"><a href="index.html"><i class="fa-solid fa-chevron-right"></i> หน้าแรก
+                (Home)</a></li>
+            <li class="footer-link-item"><a href="education.html"><i class="fa-solid fa-chevron-right"></i> การศึกษา
+                (Education)</a></li>
+            <li class="footer-link-item"><a href="portfolio.html"><i class="fa-solid fa-chevron-right"></i> ผลงาน
+                (Portfolio)</a></li>
+            <li class="footer-link-item"><a href="activity.html"><i class="fa-solid fa-chevron-right"></i> กิจกรรม
+                (Activity)</a></li>
+            <li class="footer-link-item"><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> ติดต่อเรา
+                (Contact)</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Contact Info -->
+        <div class="footer-col">
+          <h4 class="footer-title">ติดต่อด่วน</h4>
+          <div class="footer-contact-info">
+            <div class="contact-info-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>67011213104@msu.ac.th</span>
+            </div>
+            <div class="contact-info-item">
+              <i class="fa-solid fa-phone"></i>
+              <span>098-231-3776</span>
+            </div>
+            <div class="contact-info-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>มหาสารคาม, ประเทศไทย</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 4: Social Media -->
+        <div class="footer-col">
+          <h4 class="footer-title">ช่องทางติดตาม</h4>
+          <p style="color: #94a3b8; font-size: 0.88rem; font-weight: normal; margin-bottom: 1rem;">
+            ติดตามผลงานและอัปเดตไลฟ์สไตล์<br>ได้ที่โซเชียลมีเดีย:
+          </p>
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn facebook"
+              title="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/_n0ahhhhhh/" target="_blank" rel="noopener noreferrer"
+              class="social-btn instagram" title="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-btn youtube"
+              title="YouTube">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom (Copyright) -->
+      <div class="footer-bottom">
+        <div class="copyright-text">
+          &copy; 2026 <strong>ApisakPortfolio</strong>. สงวนลิขสิทธิ์ทั้งหมด (All Rights Reserved)
+        </div>
+        <button id="backToTopBtn" class="back-to-top">
+          <i class="fa-solid fa-arrow-up"></i> กลับสู่ด้านบน
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
